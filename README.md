@@ -10,6 +10,7 @@ The application is built with PHP and you only need an apache server to run the 
 # Below is the code
 
 //PHP array containing lastnames.
+
 $surnames = array(
     'ADEKUNLE',
 	'ADEBAYO',
@@ -64,6 +65,7 @@ $surnames = array(
 );
 
 //PHP array containing firstnames.
+
 $names = array(
     'MARY',
 	'EYITAYO',
@@ -117,14 +119,14 @@ $names = array(
 	'SAMUEL',
 );
 
-	//Generate a random firtsname.
-	$random_name = $names[mt_rand(0, sizeof($names) - 1)];
+//Generate a random firtsname.
+$random_name = $names[mt_rand(0, sizeof($names) - 1)];
 
-	//Generate a random lastname.
-	$random_surname = $surnames[mt_rand(0, sizeof($surnames) - 1)];
+//Generate a random lastname.
+$random_surname = $surnames[mt_rand(0, sizeof($surnames) - 1)];
 
-	//Combine them together and print out the result.
-	echo $random_name . ' ' . $random_surname;
+//Combine them together and print out the result.
+echo $random_name . ' ' . $random_surname;
 
 # End of the Program
 
