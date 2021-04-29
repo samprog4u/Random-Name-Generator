@@ -120,12 +120,15 @@ $names = array(
 );
 
 //Generate a random firtsname.
+
 $random_name = $names[mt_rand(0, sizeof($names) - 1)];
 
 //Generate a random lastname.
+
 $random_surname = $surnames[mt_rand(0, sizeof($surnames) - 1)];
 
 //Combine them together and print out the result.
+
 echo $random_name . ' ' . $random_surname;
 
 # End of the Program
